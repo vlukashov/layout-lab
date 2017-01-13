@@ -1,0 +1,14 @@
+{
+  "name": "grid-layout",
+  "version": "1.0.0",
+  "description": "Dashboard Layout Labs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "viktor@vaadin.com",
+  "license": "MIT",
+  "dependencies": {
+    "css-element-queries": "^0.4.0"
+  }
+}

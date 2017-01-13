@@ -24,8 +24,12 @@
 }
 
 @media (min-width: 720px) {
-  .top, .low {
+  .top {
     flex-basis: 50%;
+  }
+
+  .low.a, .low.b {
+    flex-basis: 100%;
   }
 }
 

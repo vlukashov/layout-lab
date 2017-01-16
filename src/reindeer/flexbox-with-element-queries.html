@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox with element queries</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/reindeer/common.css"/>
+    <link rel="stylesheet" href="../css/reindeer/flexbox-with-element-queries.css"/>
+    <script src="../../bower_components/css-element-queries/src/ResizeSensor.js"></script>
+    <script src="../../bower_components/css-element-queries/src/ElementQueries.js"></script>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="row top">
+        <div class="slot a">Pro subscriptions</div>
+        <div class="slot b">Prime subscriptions</div>
+        <div class="slot c">Training subscriptions</div>
+        <div class="slot d">Total revenue</div>
+      </div>
+      <div class="row mid">
+        <div class="slot a">
+          <div class="layout">
+            <div class="column left">
+              <div class="slot a">Pro churn</div>
+              <div class="slot b">Top projects</div>
+            </div>
+          </div>
+        </div>
+        <div class="slot b">
+          <div class="layout">
+            <div class="column center-left">
+              <div class="slot a">Vaadin Dashboard</div>
+              <div class="slot b">About Vaadin</div>
+              <div class="slot c">Unique visitors</div>
+            </div>
+          </div>
+        </div>
+        <div class="slot c">
+          <div class="layout">
+            <div class="column center-right">
+              <div class="slot a">Vaadin Logo</div>
+              <div class="slot b">Sales &amp; Marketing pipeline</div>
+            </div>
+          </div>
+        </div>
+        <div class="slot d">
+          <div class="layout">
+            <div class="column right">
+              <div class="slot a">Subscription bookings</div>
+              <div class="slot b">Service revenue</div>
+              <div class="slot c">Latest deals</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

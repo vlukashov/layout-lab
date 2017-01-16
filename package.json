@@ -10,7 +10,7 @@
   "scripts": {
     "start": "polymer serve | npm run watch",
     "test": "polymer test",
-    "watch": "browser-sync start --proxy localhost:8080 --files '**/*.html, src/**/*.js' "
+    "watch": "browser-sync start --proxy localhost:8080 --files '**/*.html, **/*.css, **/*.js' "
   },
   "author": "viktor@vaadin.com",
   "license": "MIT",

@@ -1,0 +1,7 @@
+{
+  "name": "layout-lab",
+  "short_name": "layout-lab",
+  "description": "Dashboard Layout Lab",
+  "start_url": "/",
+  "display": "standalone"
+}

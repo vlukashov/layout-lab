@@ -6,10 +6,16 @@
     "viktor@vaadin.com"
   ],
   "license": "MIT",
-  "homepage": "",
   "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
     "dashboard-widgets": "Peppe/dashboard-widgets",
     "bootstrap": "^3.3.7",
     "css-element-queries": "^0.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   }
 }

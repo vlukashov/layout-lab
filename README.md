@@ -1,11 +1,51 @@
-# Layout Lab
-A collection of prototypes of different ways to create responsive app layouts.
+# Dashboard Layout Labs
 
-## How to start:
+Dashboard Layout Lab
+
+## Install the Polymer-CLI
+
+First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
+
+## Install project dependencies
 
 ```
+$ npm install
 $ bower install
-$ python -m "SimpleHTTPServer" 8080
 ```
 
-The app will be running on [http://localhost:8080/index.html](http://localhost:8080/index.html)
+## Viewing Your Application
+
+Without live auto reload:
+```
+$ polymer serve
+```
+
+With live auto reload:
+```
+$ npm start
+```
+
+## Building Your Application
+
+```
+$ polymer build
+```
+
+This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
+containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
+CSS, and JS optimizers.
+
+You can serve the built versions by giving `polymer serve` a folder to serve
+from:
+
+```
+$ polymer serve build/bundled
+```
+
+## Running Tests
+
+```
+$ polymer test
+```
+
+Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.

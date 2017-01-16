@@ -1,0 +1,15 @@
+{
+  "name": "layout-labs",
+  "description": "Dashboard Layout Labs",
+  "main": "index.html",
+  "authors": [
+    "viktor@vaadin.com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "dashboard-widgets": "Peppe/dashboard-widgets",
+    "bootstrap": "^3.3.7",
+    "css-element-queries": "^0.4.0"
+  }
+}

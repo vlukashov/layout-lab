@@ -1,5 +1,5 @@
 {
-  "name": "grid-layout",
+  "name": "layout-labs",
   "version": "1.0.0",
   "description": "Dashboard Layout Labs",
   "main": "index.html",
@@ -8,8 +8,4 @@
   },
   "author": "viktor@vaadin.com",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "css-element-queries": "^0.4.0"
-  }
 }

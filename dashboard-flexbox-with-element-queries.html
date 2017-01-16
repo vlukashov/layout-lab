@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox with element queries</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/flexbox-with-element-queries.css"/>
+
+    <link rel="import" href="bower_components/dashboard-widgets/db-widget-sparkline.html">
+    <link rel="import" href="bower_components/dashboard-widgets/db-widget-notes.html">
+    <link rel="import" href="bower_components/dashboard-widgets/db-widget-bar.html">
+    <link rel="import" href="bower_components/dashboard-widgets/db-part-frame.html">
+  </head>
+  <body>
+    <div class="layout">
+      <div class="row">
+        <div class="top a">
+          <db-widget-sparkline bigvalue="36K" bigtext="Traffic" high="78" low="23" sparkline="20,23,36,25,27,18,29,18,20,30,33,25,25,25,25,28,23,28,18,16"></db-widget-sparkline>
+        </div>
+        <div class="top b">
+          <db-widget-sparkline bigvalue="$147M" bigtext="Revenue / day" high="147" low="95" sparkline="15,20,12,10,25,22,15,18"></db-widget-sparkline>
+        </div>
+        <div class="top c">
+          <db-widget-sparkline bigvalue="69s" bigtext="Checkout Time" high="106" low="35" sparkline="20,10,22,25,22,22,15,12,12,15,18"></db-widget-sparkline>
+        </div>
+        <div class="top d">
+          <db-widget-sparkline bigvalue="56%" bigtext="Theater Fill Rate" high="99" low="34" sparkline="10,20,15,12,13,19,12,13,14,12,12,20,18,15,12,13,18,19,20,19,12,12,18,14,18,12,15,18,17,12,14,19,12,14,15,19,20,13,18,17,12,19,13,15,12,18"></db-widget-sparkline>
+        </div>
+      </div>
+      <div class="row">
+        <div class="mid">mid</div>
+      </div>
+      <div class="row">
+        <div class="low a">
+          <db-widget-bar></db-widget-bar>
+        </div>
+        <div class="low b">
+          <div class="layout">
+            <div class="row">
+              <div class="top a">
+                <db-widget-sparkline bigvalue="36K" bigtext="Traffic" high="78" low="23" sparkline="20,23,36,25,27,18,29,18,20,30,33,25,25,25,25,28,23,28,18,16"></db-widget-sparkline>
+              </div>
+              <div class="top b">
+                <db-widget-sparkline bigvalue="$147M" bigtext="Revenue / day" high="147" low="95" sparkline="15,20,12,10,25,22,15,18"></db-widget-sparkline>
+              </div>
+              <div class="top c">
+                <db-widget-sparkline bigvalue="69s" bigtext="Checkout Time" high="106" low="35" sparkline="20,10,22,25,22,22,15,12,12,15,18"></db-widget-sparkline>
+              </div>
+              <div class="top d">
+                <db-widget-sparkline bigvalue="56%" bigtext="Theater Fill Rate" high="99" low="34" sparkline="10,20,15,12,13,19,12,13,14,12,12,20,18,15,12,13,18,19,20,19,12,12,18,14,18,12,15,18,17,12,14,19,12,14,15,19,20,13,18,17,12,19,13,15,12,18"></db-widget-sparkline>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/css-element-queries/src/ResizeSensor.js"></script>
+    <script src="node_modules/css-element-queries/src/ElementQueries.js"></script>
+  </body>
+</html>

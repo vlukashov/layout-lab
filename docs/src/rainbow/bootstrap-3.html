@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>CSS Grid Layout</title>
+    <link rel="stylesheet" href=//unpkg.com/bootstrap/dist/css/bootstrap.css>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/rainbow/common.css">
+  </head>
+  <body>
+    <div class="layout">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 top a">top A</div>
+        <div class="col-xs-12 col-sm-6 col-md-3 top b">top B</div>
+        <div class="col-xs-12 col-sm-6 col-md-3 top c">top C</div>
+        <div class="col-xs-12 col-sm-6 col-md-3 top d">top D</div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mid">mid</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-9 low a">low A</div>
+        <div class="col-xs-12 col-sm-12 col-md-3 low b">
+          <div class="layout">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 top a">low B / A</div>
+              <div class="col-xs-12 col-sm-6 col-md-3 top b">low B / B</div>
+              <div class="col-xs-12 col-sm-6 col-md-3 top c">low B / C</div>
+              <div class="col-xs-12 col-sm-6 col-md-3 top d">low B / D</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>

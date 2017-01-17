@@ -1,0 +1,4 @@
+.layout{display:flex;flex-direction:column;align-items:stretch;}.row{flex-grow:0;flex-shrink:0;flex-basis:auto;display:flex;flex-direction:row;flex-wrap:wrap;align-items:stretch;}.top,
+.mid,
+.low{flex-grow:1;flex-shrink:0;flex-basis:100%;}.row[min-width~="720px"] > .top{flex-basis:50%;}.row[min-width~="720px"] > .low.a,
+.row[min-width~="720px"] > .low.b{flex-basis:100%;}.row[min-width~="1280px"] > .top{flex-basis:25%;}.row[min-width~="1280px"] > .low.a{flex-basis:75%;}.row[min-width~="1280px"] > .low.b{flex-basis:25%;}

@@ -1,0 +1,13 @@
+.layout{display:grid;}.top.a{grid-area:top-a;}.top.b{grid-area:top-b;}.top.c{grid-area:top-c;}.top.d{grid-area:top-d;}.mid{grid-area:mid;}.low.a{grid-area:low-a;}.low.b{grid-area:low-b;}@media (max-width: 719px){.layout{grid-template-columns:auto;grid-template-rows:auto;grid-template-areas:"top-a"
+                         "top-b"
+                         "top-c"
+                         "top-d"
+                         "mid"
+                         "low-a"
+                         "low-b";}}@media (min-width: 720px) and (max-width: 1279px){.layout{grid-template-columns:repeat(2, 1fr);grid-template-rows:auto;grid-template-areas:"top-a top-b"
+                         "top-c top-d"
+                         " mid   mid "
+                         "low-a low-a"
+                         "low-b low-b";}}@media (min-width: 1280px){.layout{grid-template-columns:repeat(12, 1fr);grid-template-rows:auto;grid-template-areas:"top-a top-a top-a top-b top-b top-b top-c top-c top-c top-d top-d top-d"
+                         " mid   mid   mid   mid   mid   mid   mid   mid   mid   mid   mid   mid "
+                         "low-a low-a low-a low-a low-a low-a low-a low-a low-b low-b low-b low-b";}}

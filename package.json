@@ -4,10 +4,13 @@
   "description": "Dashboard Layout Labs",
   "main": "index.html",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/vlukashov/layout-lab"
+    "type": "git",
+    "url": "https://github.com/vlukashov/layout-lab"
   },
   "scripts": {
+    "postinstall": "bower install",
+    "build": "polymer build",
+    "update-docs": "npm run build && gulp update-docs",
     "start": "polymer serve | npm run watch",
     "test": "polymer test",
     "watch": "browser-sync start --proxy localhost:8080 --files '**/*.html, **/*.css, **/*.js' "
@@ -15,6 +18,11 @@
   "author": "viktor@vaadin.com",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.18.6"
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-replace": "^0.5.4",
+    "polymer-cli": "^0.17.0"
   }
 }

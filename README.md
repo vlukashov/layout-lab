@@ -1,6 +1,6 @@
 # Dashboard Layout Labs
 
-Dashboard Layout Lab
+Dashboard Layout Labs. See a live demo at https://vlukashov.github.io/layout-lab/.
 
 ## Install the Polymer-CLI
 
@@ -10,7 +10,6 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 
 ```
 $ npm install
-$ bower install
 ```
 
 ## Viewing Your Application
@@ -41,6 +40,16 @@ from:
 ```
 $ polymer serve build/bundled
 ```
+
+## Updating the GitHub pages
+
+```
+$ npm run update-docs
+```
+
+This will build the project (`polymer build`) and recreate the contents of the `docs/` folder from the `build/unbundled/` folder. It will also replace all references to 3rd party dependencies from the `bower_components` folder with corresponding references to `unpkg.com`.
+
+Push to the `master` branch to deploy a new version to GitHub pages at https://vlukashov.github.io/layout-lab/.
 
 ## Running Tests
 
